@@ -7,12 +7,20 @@
 </head>
 <body>
 
+    <h1>Welcome To THe Word Guessing Game!!!</h1>
+
+    <!-- Add a welcome screen here that dissapears after user presses any key -->
+    <h2 id="welcome"></h2>
+    <p id="question"></p>
+
+    <p id="score"></p>
+
     <script>
 
-    // Global vars Go Here!!!
+    //  vars Go Here
     
     var words = [
-        {t: "Barbie"},
+        {t: "Barbie", d: "____"},
         {t: "He-Man"},
         {t: "Hot Wheels"},
         {t: "Matchbox"},
@@ -24,11 +32,29 @@
         {t: "Buzz Lightyear"}
     ]
 
-        // Functions and Objects
+    var totalGuesses = 13;
+    var guessNumber = 0;
+    var score = 0;
+
+    // Word altering variables
+
+    var welcomeText = document.getElementById("welcome");
+    var questionText = document.getElementById("question");
+    var scoreFeild = document.getElementById("score");
 
 
+    // Functions and Objects
 
-        // 
+    function renderWord() {
+
+    }
+
+    function renderDashes() {
+
+    }
+
+
+        // Calls
 
     </script>
     
